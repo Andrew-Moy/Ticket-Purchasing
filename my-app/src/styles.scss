@@ -1,0 +1,111 @@
+* {
+    font-family: 'Commissioner', sans-serif;
+}
+
+.information {
+    display: grid;
+    // text-align: center;
+    justify-content: center;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 400px;
+
+}
+
+.shows {
+    display: grid;
+    justify-content: center;
+
+
+    select {
+        font-size: 15px;
+    }
+}
+
+.ticketSelect {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(227, 227, 227);
+    // background-color: rgb(161, 193, 244);
+}
+
+.ticketsButton {
+    display: flex;
+    align-items: center;
+
+    button {
+        margin-left: 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+    // justify-content: center;
+}
+
+.address {
+    border: 1px solid rgb(227, 227, 227);
+    background-color: rgb(245, 245, 245);
+
+    form {
+        padding: 14px 80px;
+        width: 30px;
+
+    }
+
+    input {
+        width: 150px;
+        height: 16px;
+    }
+
+}
+
+
+.payment {
+    border: 1px solid rgb(227, 227, 227);
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
+    text-align: center;
+
+    form {
+        padding: 14px 80px;
+        width: 30px;
+
+    }
+
+    input {
+        width: 150px;
+        height: 16px;
+    }
+}
+
+.total {
+    display: grid;
+    justify-content: center;
+    // align-items: center;
+    // margin-left: 257px;
+    width: 600px;
+    border: 1px solid rgb(191, 191, 191);
+
+    button {
+        font-size: 25px;
+        height: 40px;
+        width: 200px;
+        background-color: green;
+        color: white;
+    }
+}
+
+.tickets {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+// .monthyear {
+//     display: grid;
+//     // text-align: center;
+//     justify-content: center;
+//     grid-template-columns: 50px 100px;
+//     grid-column-gap: 30px;
+// }
